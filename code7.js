@@ -44,6 +44,12 @@ gdjs.GAME_32OVERCode.GDgoma_9595giganteObjects1= [];
 gdjs.GAME_32OVERCode.GDgoma_9595giganteObjects2= [];
 gdjs.GAME_32OVERCode.GDalienObjects1= [];
 gdjs.GAME_32OVERCode.GDalienObjects2= [];
+gdjs.GAME_32OVERCode.GDlimitesObjects1= [];
+gdjs.GAME_32OVERCode.GDlimitesObjects2= [];
+gdjs.GAME_32OVERCode.GDTransparentDarkJoystickObjects1= [];
+gdjs.GAME_32OVERCode.GDTransparentDarkJoystickObjects2= [];
+gdjs.GAME_32OVERCode.GDjump_9595buttonObjects1= [];
+gdjs.GAME_32OVERCode.GDjump_9595buttonObjects2= [];
 
 
 gdjs.GAME_32OVERCode.eventsList0 = function(runtimeScene) {
@@ -85,6 +91,7 @@ for (var i = 0, k = 0, l = gdjs.GAME_32OVERCode.GDbot_95227o_9595recome_95231arO
 gdjs.GAME_32OVERCode.GDbot_95227o_9595recome_95231arObjects1.length = k;
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(1).setNumber(3);
+}{runtimeScene.getGame().getVariables().getFromIndex(0).setNumber(0);
 }}
 
 }
@@ -149,6 +156,12 @@ gdjs.GAME_32OVERCode.GDgoma_9595giganteObjects1.length = 0;
 gdjs.GAME_32OVERCode.GDgoma_9595giganteObjects2.length = 0;
 gdjs.GAME_32OVERCode.GDalienObjects1.length = 0;
 gdjs.GAME_32OVERCode.GDalienObjects2.length = 0;
+gdjs.GAME_32OVERCode.GDlimitesObjects1.length = 0;
+gdjs.GAME_32OVERCode.GDlimitesObjects2.length = 0;
+gdjs.GAME_32OVERCode.GDTransparentDarkJoystickObjects1.length = 0;
+gdjs.GAME_32OVERCode.GDTransparentDarkJoystickObjects2.length = 0;
+gdjs.GAME_32OVERCode.GDjump_9595buttonObjects1.length = 0;
+gdjs.GAME_32OVERCode.GDjump_9595buttonObjects2.length = 0;
 
 gdjs.GAME_32OVERCode.eventsList0(runtimeScene);
 gdjs.GAME_32OVERCode.GDbot_95227o_9595recome_95231arObjects1.length = 0;
@@ -195,6 +208,12 @@ gdjs.GAME_32OVERCode.GDgoma_9595giganteObjects1.length = 0;
 gdjs.GAME_32OVERCode.GDgoma_9595giganteObjects2.length = 0;
 gdjs.GAME_32OVERCode.GDalienObjects1.length = 0;
 gdjs.GAME_32OVERCode.GDalienObjects2.length = 0;
+gdjs.GAME_32OVERCode.GDlimitesObjects1.length = 0;
+gdjs.GAME_32OVERCode.GDlimitesObjects2.length = 0;
+gdjs.GAME_32OVERCode.GDTransparentDarkJoystickObjects1.length = 0;
+gdjs.GAME_32OVERCode.GDTransparentDarkJoystickObjects2.length = 0;
+gdjs.GAME_32OVERCode.GDjump_9595buttonObjects1.length = 0;
+gdjs.GAME_32OVERCode.GDjump_9595buttonObjects2.length = 0;
 
 
 return;

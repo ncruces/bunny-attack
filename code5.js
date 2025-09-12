@@ -118,6 +118,12 @@ gdjs.nivel5Code.GDgoma_9595giganteObjects1= [];
 gdjs.nivel5Code.GDgoma_9595giganteObjects2= [];
 gdjs.nivel5Code.GDalienObjects1= [];
 gdjs.nivel5Code.GDalienObjects2= [];
+gdjs.nivel5Code.GDlimitesObjects1= [];
+gdjs.nivel5Code.GDlimitesObjects2= [];
+gdjs.nivel5Code.GDTransparentDarkJoystickObjects1= [];
+gdjs.nivel5Code.GDTransparentDarkJoystickObjects2= [];
+gdjs.nivel5Code.GDjump_9595buttonObjects1= [];
+gdjs.nivel5Code.GDjump_9595buttonObjects2= [];
 
 
 gdjs.nivel5Code.mapOfGDgdjs_9546nivel5Code_9546GDplayerObjects1Objects = Hashtable.newFrom({"player": gdjs.nivel5Code.GDplayerObjects1});
@@ -840,6 +846,12 @@ gdjs.nivel5Code.GDgoma_9595giganteObjects1.length = 0;
 gdjs.nivel5Code.GDgoma_9595giganteObjects2.length = 0;
 gdjs.nivel5Code.GDalienObjects1.length = 0;
 gdjs.nivel5Code.GDalienObjects2.length = 0;
+gdjs.nivel5Code.GDlimitesObjects1.length = 0;
+gdjs.nivel5Code.GDlimitesObjects2.length = 0;
+gdjs.nivel5Code.GDTransparentDarkJoystickObjects1.length = 0;
+gdjs.nivel5Code.GDTransparentDarkJoystickObjects2.length = 0;
+gdjs.nivel5Code.GDjump_9595buttonObjects1.length = 0;
+gdjs.nivel5Code.GDjump_9595buttonObjects2.length = 0;
 
 gdjs.nivel5Code.eventsList0(runtimeScene);
 gdjs.nivel5Code.GDch_95227oObjects1.length = 0;
@@ -960,6 +972,12 @@ gdjs.nivel5Code.GDgoma_9595giganteObjects1.length = 0;
 gdjs.nivel5Code.GDgoma_9595giganteObjects2.length = 0;
 gdjs.nivel5Code.GDalienObjects1.length = 0;
 gdjs.nivel5Code.GDalienObjects2.length = 0;
+gdjs.nivel5Code.GDlimitesObjects1.length = 0;
+gdjs.nivel5Code.GDlimitesObjects2.length = 0;
+gdjs.nivel5Code.GDTransparentDarkJoystickObjects1.length = 0;
+gdjs.nivel5Code.GDTransparentDarkJoystickObjects2.length = 0;
+gdjs.nivel5Code.GDjump_9595buttonObjects1.length = 0;
+gdjs.nivel5Code.GDjump_9595buttonObjects2.length = 0;
 
 
 return;

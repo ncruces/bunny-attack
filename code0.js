@@ -42,6 +42,12 @@ gdjs.menuCode.GDgoma_9595giganteObjects1= [];
 gdjs.menuCode.GDgoma_9595giganteObjects2= [];
 gdjs.menuCode.GDalienObjects1= [];
 gdjs.menuCode.GDalienObjects2= [];
+gdjs.menuCode.GDlimitesObjects1= [];
+gdjs.menuCode.GDlimitesObjects2= [];
+gdjs.menuCode.GDTransparentDarkJoystickObjects1= [];
+gdjs.menuCode.GDTransparentDarkJoystickObjects2= [];
+gdjs.menuCode.GDjump_9595buttonObjects1= [];
+gdjs.menuCode.GDjump_9595buttonObjects2= [];
 
 
 gdjs.menuCode.eventsList0 = function(runtimeScene) {
@@ -62,6 +68,8 @@ for (var i = 0, k = 0, l = gdjs.menuCode.GDbot_95227o_9595iniciarObjects1.length
 gdjs.menuCode.GDbot_95227o_9595iniciarObjects1.length = k;
 if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "nivel 1", true);
+}{runtimeScene.getGame().getVariables().getFromIndex(0).setNumber(0);
+}{runtimeScene.getGame().getVariables().getFromIndex(1).setNumber(3);
 }}
 
 }
@@ -114,6 +122,12 @@ gdjs.menuCode.GDgoma_9595giganteObjects1.length = 0;
 gdjs.menuCode.GDgoma_9595giganteObjects2.length = 0;
 gdjs.menuCode.GDalienObjects1.length = 0;
 gdjs.menuCode.GDalienObjects2.length = 0;
+gdjs.menuCode.GDlimitesObjects1.length = 0;
+gdjs.menuCode.GDlimitesObjects2.length = 0;
+gdjs.menuCode.GDTransparentDarkJoystickObjects1.length = 0;
+gdjs.menuCode.GDTransparentDarkJoystickObjects2.length = 0;
+gdjs.menuCode.GDjump_9595buttonObjects1.length = 0;
+gdjs.menuCode.GDjump_9595buttonObjects2.length = 0;
 
 gdjs.menuCode.eventsList0(runtimeScene);
 gdjs.menuCode.GDbot_95227o_9595iniciarObjects1.length = 0;
@@ -158,6 +172,12 @@ gdjs.menuCode.GDgoma_9595giganteObjects1.length = 0;
 gdjs.menuCode.GDgoma_9595giganteObjects2.length = 0;
 gdjs.menuCode.GDalienObjects1.length = 0;
 gdjs.menuCode.GDalienObjects2.length = 0;
+gdjs.menuCode.GDlimitesObjects1.length = 0;
+gdjs.menuCode.GDlimitesObjects2.length = 0;
+gdjs.menuCode.GDTransparentDarkJoystickObjects1.length = 0;
+gdjs.menuCode.GDTransparentDarkJoystickObjects2.length = 0;
+gdjs.menuCode.GDjump_9595buttonObjects1.length = 0;
+gdjs.menuCode.GDjump_9595buttonObjects2.length = 0;
 
 
 return;
