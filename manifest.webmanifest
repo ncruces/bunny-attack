@@ -8,5 +8,11 @@
   "display": "fullscreen",
   "background_color": "black",
   "categories": ["games", "entertainment"],
-  "icons": []
+  "icons": [
+    {
+      "src": "ic_launcher.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }
+  ]
 }
