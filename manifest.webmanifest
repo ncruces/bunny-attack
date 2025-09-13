@@ -5,7 +5,7 @@
   "description": "",
   "orientation": "landscape",
   "start_url": "./index.html",
-  "display": "standalone",
+  "display": "fullscreen",
   "background_color": "black",
   "categories": ["games", "entertainment"],
   "icons": []
