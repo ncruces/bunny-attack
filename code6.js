@@ -673,8 +673,6 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "GAME OVER", true);
-}{runtimeScene.getGame().getVariables().getFromIndex(0).setNumber(0);
-}{gdjs.evtTools.sound.playSound(runtimeScene, "64c620fd92d7491aafad7944ee44d9666dc6493529fbfff90b72ce2718382813_Cha-Cha Ender.aac", false, 40, 1);
 }}
 
 }

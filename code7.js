@@ -56,20 +56,12 @@ gdjs.GAME_32OVERCode.eventsList0 = function(runtimeScene) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("botão_recomeçar"), gdjs.GAME_32OVERCode.GDbot_95227o_9595recome_95231arObjects1);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.GAME_32OVERCode.GDbot_95227o_9595recome_95231arObjects1.length;i<l;++i) {
-    if ( gdjs.GAME_32OVERCode.GDbot_95227o_9595recome_95231arObjects1[i].IsClicked(null) ) {
-        isConditionTrue_0 = true;
-        gdjs.GAME_32OVERCode.GDbot_95227o_9595recome_95231arObjects1[k] = gdjs.GAME_32OVERCode.GDbot_95227o_9595recome_95231arObjects1[i];
-        ++k;
-    }
-}
-gdjs.GAME_32OVERCode.GDbot_95227o_9595recome_95231arObjects1.length = k;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "nivel 1", true);
+{gdjs.evtTools.sound.playSound(runtimeScene, "assets\\Cha-Cha Ender.aac", false, 40, 1);
 }}
 
 }
@@ -92,6 +84,8 @@ gdjs.GAME_32OVERCode.GDbot_95227o_9595recome_95231arObjects1.length = k;
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(1).setNumber(3);
 }{runtimeScene.getGame().getVariables().getFromIndex(0).setNumber(0);
+}{runtimeScene.getGame().getVariables().getFromIndex(2).setBoolean(true);
+}{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "nivel 1", true);
 }}
 
 }
